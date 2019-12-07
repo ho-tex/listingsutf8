@@ -1,13 +1,13 @@
 % \iffalse meta-comment
 %
 % File: listingsutf8.dtx
-% Version: 2016/05/16 v1.3
+% Version: 2019/12/15 v1.4
 % Info: Allow UTF-8 in listings input
 %
 % Copyright (C)
 %    2007, 2011 Heiko Oberdiek
 %    2016-2019 Oberdiek Package Support Group
-%    https://github.com/ho-tex/oberdiek/issues
+%    https://github.com/ho-tex/listingsutf8/issues
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
@@ -23,7 +23,7 @@
 %
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
-% https://github.com/ho-tex/oberdiek/issues
+% https://github.com/ho-tex/listingsutf8/issues
 %
 % This work consists of the main source file listingsutf8.dtx
 % and the derived files
@@ -33,8 +33,8 @@
 %    listingsutf8-test5.tex.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/listingsutf8.dtx
-%    CTAN:macros/latex/contrib/oberdiek/listingsutf8.pdf
+%    CTAN:macros/latex/contrib/listingsutf8/listingsutf8.dtx
+%    CTAN:macros/latex/contrib/listingsutf8/listingsutf8.pdf
 %
 % Unpacking:
 %    (a) If listingsutf8.ins is present:
@@ -63,9 +63,9 @@
 %       pdflatex listingsutf8.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/listingsutf8.sty
-%    TDS:doc/latex/oberdiek/listingsutf8.pdf
-%    TDS:source/latex/oberdiek/listingsutf8.dtx
+%    TDS:tex/latex/listingsutf8/listingsutf8.sty
+%    TDS:doc/latex/listingsutf8/listingsutf8.pdf
+%    TDS:source/latex/listingsutf8/listingsutf8.dtx
 %
 %<*ignore>
 \begingroup
@@ -82,7 +82,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)}
+\Msg{* Package: listingsutf8 2019/12/15 v1.4 Allow UTF-8 in listings input (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -94,7 +94,7 @@
 This is a generated file.
 
 Project: listingsutf8
-Version: 2016/05/16 v1.3
+Version: 2019/12/15 v1.4
 
 Copyright (C)
    2007, 2011 Heiko Oberdiek
@@ -114,7 +114,7 @@ This work has the LPPL maintenance status "maintained".
 
 The Current Maintainers of this work are
 Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/oberdiek/issues
+https://github.com/ho-tex/listingsutf8/issues
 
 
 This work consists of the main source file listingsutf8.dtx
@@ -130,14 +130,8 @@ and the derived files
 \generate{%
   \file{listingsutf8.ins}{\from{listingsutf8.dtx}{install}}%
   \file{listingsutf8.drv}{\from{listingsutf8.dtx}{driver}}%
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/listingsutf8}%
   \file{listingsutf8.sty}{\from{listingsutf8.dtx}{package}}%
-%  \usedir{doc/latex/oberdiek/test}%
-%  \file{listingsutf8-test1.tex}{\from{listingsutf8.dtx}{test1}}%
-%  \file{listingsutf8-test2.tex}{\from{listingsutf8.dtx}{test2,utf8}}%
-%  \file{listingsutf8-test3.tex}{\from{listingsutf8.dtx}{test3,utf8x}}%
-%  \file{listingsutf8-test4.tex}{\from{listingsutf8.dtx}{test4,utf8,noetex}}%
-%  \file{listingsutf8-test5.tex}{\from{listingsutf8.dtx}{test5,utf8x,noetex}}%
 }
 
 \catcode32=13\relax% active space
@@ -164,7 +158,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{listingsutf8.drv}%
-  [2016/05/16 v1.3 Allow UTF-8 in listings input (HO)]%
+  [2019/12/15 v1.4 Allow UTF-8 in listings input (HO)]%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \begin{document}
@@ -178,9 +172,9 @@ and the derived files
 % \GetFileInfo{listingsutf8.drv}
 %
 % \title{The \xpackage{listingsutf8} package}
-% \date{2016/05/16 v1.3}
+% \date{2019/12/15 v1.4}
 % \author{Heiko Oberdiek\thanks
-% {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
+% {Please report any issues at \url{https://github.com/ho-tex/listingsutf8/issues}}}
 %
 % \maketitle
 %
@@ -311,7 +305,7 @@ and the derived files
 %    \begin{macrocode}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{listingsutf8}%
-  [2016/05/16 v1.3 Allow UTF-8 in listings input (HO)]
+  [2019/12/15 v1.4 Allow UTF-8 in listings input (HO)]
 %    \end{macrocode}
 %
 % \subsection{Package options}
@@ -476,17 +470,17 @@ and the derived files
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\CTANpkg{listingsutf8}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/listingsutf8.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/listingsutf8.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/listingsutf8/listingsutf8.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/listingsutf8/listingsutf8.pdf}] Documentation.
 % \end{description}
 %
 %
-% \paragraph{Bundle.} All the packages of the bundle `oberdiek'
+% \paragraph{Bundle.} All the packages of the bundle `listingsutf8'
 % are also available in a TDS compliant ZIP archive. There
 % the packages are already unpacked and the documentation files
 % are generated. The files and directories obey the TDS standard.
 % \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/oberdiek.tds.zip}]
+% \item[\CTANinstall{install/macros/latex/contrib/listingsutf8.tds.zip}]
 % \end{description}
 % \emph{TDS} refers to the standard ``A Directory Structure
 % for \TeX\ Files'' (\CTANpkg{tds}). Directories
@@ -494,11 +488,11 @@ and the derived files
 %
 % \subsection{Bundle installation}
 %
-% \paragraph{Unpacking.} Unpack the \xfile{oberdiek.tds.zip} in the
+% \paragraph{Unpacking.} Unpack the \xfile{listingsutf8.tds.zip} in the
 % TDS tree (also known as \xfile{texmf} tree) of your choice.
 % Example (linux):
 % \begin{quote}
-%   |unzip oberdiek.tds.zip -d ~/texmf|
+%   |unzip listingsutf8.tds.zip -d ~/texmf|
 % \end{quote}
 %
 % \subsection{Package installation}
@@ -516,9 +510,9 @@ and the derived files
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   listingsutf8.sty & tex/latex/oberdiek/listingsutf8.sty\\
-%   listingsutf8.pdf & doc/latex/oberdiek/listingsutf8.pdf\\
-%   listingsutf8.dtx & source/latex/oberdiek/listingsutf8.dtx\\
+%   listingsutf8.sty & tex/latex/listingsutf8/listingsutf8.sty\\
+%   listingsutf8.pdf & doc/latex/listingsutf8/listingsutf8.pdf\\
+%   listingsutf8.dtx & source/latex/listingsutf8/listingsutf8.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
@@ -664,6 +658,10 @@ and the derived files
 %     (Bug report of Thomas Benkert in de.comp.text.tex).
 %   \end{Version}
 %   \begin{Version}{2016/05/16 v1.3}
+%   \item
+%     Documentation updates.
+%   \end{Version}
+%   \begin{Version}{2019/12/15 v1.4}
 %   \item
 %     Documentation updates.
 %   \end{Version}

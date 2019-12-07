@@ -15,6 +15,7 @@ unpackfiles = {'listingsutf8.dtx'}
 
 packtdszip  = true
 
+checkconfigs = {"build","config-pdftex"}
 maxprintline=10000
 checkruns = 2
 
