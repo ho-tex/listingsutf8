@@ -35,7 +35,7 @@ Package: pdftexcmds ....-..-.. v... Utility functions of pdfTeX for LuaTeX (HO)
 Package: infwarerr ....-..-.. v... Providing info/warning/error messages (HO)
 ) (../iftex.sty
 Package: iftex ....-..-.. v... TeX engine tests
-) (ltxcmds.sty
+) (../ltxcmds.sty
 Package: ltxcmds ....-..-.. v... LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -43,6 +43,6 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ) (../stringenc.sty
 Package: stringenc ....-..-.. v... Convert strings between diff. encodings (HO)
-(pdfescape.sty
+(../pdfescape.sty
 Package: pdfescape ....-..-.. v... Implements pdfTeX's escape features (HO)
 )))
