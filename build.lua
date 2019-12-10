@@ -3,12 +3,6 @@
 
 module = "listingsutf8"
 
-installfiles = {
-'*.sty',
-'listingsutf8-showcases.tex',
-'*.dtx','*.pdf'
-}
-
 
 textfiles = {"README.md"}
 unpackfiles = {'listingsutf8.dtx'}
